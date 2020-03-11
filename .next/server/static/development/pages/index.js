@@ -184,8 +184,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/Link */ "next/Link");
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _rug_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./rug.js */ "./comps/rug.js");
+/* harmony import */ var _seq_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./seq.js */ "./comps/seq.js");
 var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/parallax.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -195,13 +199,275 @@ const {
   ParallaxLayer
 } = __webpack_require__(/*! react-spring/addons.cjs */ "react-spring/addons.cjs");
 
- //const sketch = require('./sketches.js')
+
+
+
 
 class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      x: 100,
+      y: 100
+    };
+  }
+
+  render() {
+    return __jsx(Parallax, {
+      pages: 4,
+      scrolling: true,
+      horizontal: true,
+      ref: ref => this.parallax = ref,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, __jsx(ParallaxLayer, {
+      offset: 0.23,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(1),
+      style: {
+        marginTop: '3em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "200",
+      src: '../static/blob-shape (3).svg',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: .58,
+      speed: 1,
+      style: {
+        marginTop: '23em'
+      },
+      onClick: () => this.parallax.scrollTo(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, " This is the first product. ")), __jsx(ParallaxLayer, {
+      offset: 0,
+      speed: 0.5,
+      onClick: () => this.parallax.scrollTo(1),
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx(_rug_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 1,
+      speed: 0.5,
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      onClick: () => this.parallax.scrollTo(2),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "p5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "400em",
+      src: '../static/placeholder.png',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }))), __jsx(ParallaxLayer, {
+      offset: 1.58,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(2),
+      style: {
+        marginTop: '3em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "200",
+      src: '../static/blob-shape (4).svg',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 1.23,
+      speed: 1,
+      style: {
+        marginTop: '23em'
+      },
+      onClick: () => this.parallax.scrollTo(2),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, " This is the second product. ")), __jsx(ParallaxLayer, {
+      offset: 2,
+      speed: 0.5,
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      onClick: () => this.parallax.scrollTo(0),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "400em",
+      src: '../static/placeholder.png',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 2.23,
+      speed: .75,
+      style: {
+        zIndex: '1',
+        marginTop: '3em'
+      },
+      onClick: () => this.parallax.scrollTo(0),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "200",
+      src: '../static/blob-shape (3).svg',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 2.58,
+      speed: 1,
+      style: {
+        zIndex: '2',
+        marginTop: '23em'
+      },
+      onClick: () => this.parallax.scrollTo(0),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81
+      },
+      __self: this
+    }, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86
+      },
+      __self: this
+    }, " This is the third product. ")), __jsx(ParallaxLayer, {
+      offset: 2,
+      speed: 0.5,
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88
+      },
+      __self: this
+    }, __jsx("span", {
+      onClick: () => this.parallax.scrollTo(0),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92
+      },
+      __self: this
+    }, __jsx("img", {
+      width: "400em",
+      src: '../static/placeholder.png',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93
+      },
+      __self: this
+    }))));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./comps/rug.js":
+/*!**********************!*\
+  !*** ./comps/rug.js ***!
+  \**********************/
+/*! exports provided: Rug, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Rug", function() { return Rug; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/rug.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+class Rug extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
     this.rugRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
-    this.seqRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
     this.state = {
       x: 100,
       y: 100
@@ -214,42 +480,108 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     __webpack_require__(/*! p5/lib/addons/p5.sound */ "p5/lib/addons/p5.sound");
 
     this.rugSketch = new p5(p => {
-      let locs = [];
-      let res = 20;
+      var rows = 0,
+          cols = 0,
+          space = 33,
+          scl = 0,
+          rot = 0,
+          marg = 3;
+      p.disableFriendlyErrors = true;
 
       p.setup = () => {
-        p.createCanvas(600, 300).parent(this.rugRef.current);
-        var countX = p.ceil(p.width / res) + 1;
-        var countY = p.ceil(p.height / res) + 1;
+        p.createCanvas(p.windowWidth, p.windowHeight).parent(this.rugRef.current);
+        rows = p.windowWidth / space;
+        cols = p.windowHeight / space;
+      };
+      /*	p.windowResized = () => {
+      		p.resizeCanvas(p.windowWidth, p.windowHeight )
+          }*/
 
-        for (var j = 0; j < countY - 1; j++) {
-          for (var i = 0; i < countX - 1; i++) {
-            locs.push(new p5.Vector(res * i, res * j));
+
+      p.draw = () => {
+        p.background(255); //p.noStroke();
+
+        for (var i = 0; i <= rows; i++) {
+          for (var j = 0; j < cols; j++) {
+            var offSet = p.PI + p.PI / rows * i + p.PI / cols * j;
+            var x = (i + .5) * space;
+            var y = (j + .5) * space;
+            var chaosX = p.mouseX - x;
+            var chaosY = p.mouseY - y; // p.noStroke();
+
+            p.fill(255, 213, 110);
+            var orient = p.atan2(chaosY, chaosX);
+            var pacMan = p.map(p.cos(rot / 7 + offSet), -111, 111, p.radians(900000), p.TWO_PI);
+            scl = space * .90;
+            p.push();
+            p.translate(x + marg, y + marg);
+            p.rotate(orient + rot);
+            p.line(0, 0, scl, scl);
+            p.pop();
           }
         }
 
-        ;
+        rot += 0.003;
       };
-
-      p.windowResized = () => {
-        p.resizeCanvas(p.windowWidth, p.windowHeight);
-      };
-
-      p.draw = () => {
-        p.background(255);
-
-        for (var i = locs.length - 1; i >= 0; i--) {
-          var h = calcVec(locs[i].x - p.mouseX, locs[i].y - p.mouseY);
-          p.bezier(locs[i].x, locs[i].y, locs[i].x + 15 * p.cos(h.heading()), locs[i].y + 15 * p.sin(h.heading()), locs[i].x + 15 * p.cos(h.heading()) + 30, locs[i].y + 15 * p.sin(h.heading()) + 30, locs[i].x, locs[i].y);
-        }
-
-        ;
-      };
-
-      function calcVec(x, y) {
-        return new p5.Vector(y - x, -x - y);
-      }
     });
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "p5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, __jsx("div", {
+      ref: this.rugRef,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (Rug);
+
+/***/ }),
+
+/***/ "./comps/seq.js":
+/*!**********************!*\
+  !*** ./comps/seq.js ***!
+  \**********************/
+/*! exports provided: Seq, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Seq", function() { return Seq; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/seq.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+class Seq extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.seqRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+    this.state = {
+      x: 100,
+      y: 100
+    };
+  }
+
+  componentDidMount() {
+    const p5 = __webpack_require__(/*! p5 */ "p5");
+
+    __webpack_require__(/*! p5/lib/addons/p5.sound */ "p5/lib/addons/p5.sound");
+
     this.seqSketch = new p5(p => {
       let osc,
           envelope,
@@ -257,6 +589,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           mouseMoved = "";
       let res = 30;
       let seqs = [];
+      p.disableFriendlyErrors = true;
 
       p.setup = () => {
         p.createCanvas(400, 400).parent(this.seqRef.current);
@@ -306,7 +639,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           osc.freq(freqValue);
           envelope.play(osc, 0, 0.1);
       }
-      }*/
+        } */
 
 
       p.draw = () => {
@@ -346,215 +679,25 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return __jsx(Parallax, {
-      pages: 4,
-      scrolling: true,
-      horizontal: true,
-      ref: ref => this.parallax = ref,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 149
-      },
-      __self: this
-    }, __jsx(ParallaxLayer, {
-      offset: 0,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      onClick: () => this.parallax.scrollTo(1),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 151
-      },
-      __self: this
-    }, __jsx("div", {
+    return __jsx("div", {
       className: "p5",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
-      },
-      __self: this
-    }, __jsx("div", {
-      ref: this.rugRef,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 157
-      },
-      __self: this
-    }))), __jsx(ParallaxLayer, {
-      offset: 0.23,
-      speed: .75,
-      onClick: () => this.parallax.scrollTo(1),
-      style: {
-        marginTop: '3em'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 160
-      },
-      __self: this
-    }), __jsx(ParallaxLayer, {
-      offset: .58,
-      speed: 1,
-      style: {
-        marginTop: '23em'
-      },
-      onClick: () => this.parallax.scrollTo(1),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 167
-      },
-      __self: this
-    }), __jsx(ParallaxLayer, {
-      offset: 1,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      onClick: () => this.parallax.scrollTo(2),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 175
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "p5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 180
+        lineNumber: 102
       },
       __self: this
     }, __jsx("div", {
       ref: this.seqRef,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 181
+        lineNumber: 103
       },
       __self: this
-    }))), __jsx(ParallaxLayer, {
-      offset: 1.58,
-      speed: .75,
-      onClick: () => this.parallax.scrollTo(2),
-      style: {
-        marginTop: '3em'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 184
-      },
-      __self: this
-    }), __jsx(ParallaxLayer, {
-      offset: 1.23,
-      speed: 1,
-      style: {
-        marginTop: '23em'
-      },
-      onClick: () => this.parallax.scrollTo(2),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 191
-      },
-      __self: this
-    }), __jsx(ParallaxLayer, {
-      offset: 2,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      onClick: () => this.parallax.scrollTo(0),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 199
-      },
-      __self: this
-    }, __jsx("img", {
-      width: "400em",
-      src: '../static/placeholder.png',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 204
-      },
-      __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: 2.23,
-      speed: .75,
-      style: {
-        zIndex: '1',
-        marginTop: '3em'
-      },
-      onClick: () => this.parallax.scrollTo(0),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 206
-      },
-      __self: this
-    }, __jsx("img", {
-      width: "200",
-      src: '../static/blob-shape (3).svg',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 211
-      },
-      __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: 2.58,
-      speed: 1,
-      style: {
-        zIndex: '2',
-        marginTop: '23em'
-      },
-      onClick: () => this.parallax.scrollTo(0),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 213
-      },
-      __self: this
-    }, __jsx("p", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 218
-      },
-      __self: this
-    }, " This is the third product. ")), __jsx(ParallaxLayer, {
-      offset: 2,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 223
-      },
-      __self: this
-    }, __jsx("span", {
-      onClick: () => this.parallax.scrollTo(0),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 227
-      },
-      __self: this
-    }, __jsx("img", {
-      width: "400em",
-      src: '../static/placeholder.png',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 228
-      },
-      __self: this
-    }))));
+    }));
   }
 
 }
-/* harmony default export */ __webpack_exports__["default"] = (App);
+/* harmony default export */ __webpack_exports__["default"] = (Seq);
 
 /***/ }),
 
@@ -2337,6 +2480,17 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "next/Link":
+/*!****************************!*\
+  !*** external "next/Link" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/Link");
 
 /***/ }),
 

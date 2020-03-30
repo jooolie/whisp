@@ -1,8 +1,7 @@
 const { Parallax, ParallaxLayer } = require('react-spring/addons.cjs');
 import Link from 'next/Link'
 import dynamic from 'next/dynamic';
-import Rug from './rug.js'
-import Seq from './seq.js'
+import Grater from '../comps/grater'
 
 export class App extends React.Component {
 	constructor(props) {
@@ -15,29 +14,45 @@ export class App extends React.Component {
 
 	render () {
 		return (
+			<div>
 			<Parallax pages={4} scrolling={true} horizontal ref={ref => (this.parallax = ref)}>
 				{/* PAGE 1 */}
-        <ParallaxLayer
-					offset={0.23}
+				<div>
+				<ParallaxLayer
+				    offset = {.2}
+					speed={1}
+					style={{marginTop: '7em'}}
+					onClick={() => this.parallax.scrollTo(1)}>
+					<img height = "325px" src="../static/gratimg_1.jpeg" />
+				</ParallaxLayer>
+				<ParallaxLayer
+				    offset = {.62}
+					speed={1}
+					style={{marginTop: '7em'}}
+					onClick={() => this.parallax.scrollTo(1)}>
+					<img height = "150px" src="../static/gratimg_2.jpeg" />
+				</ParallaxLayer>
+				<ParallaxLayer
+				    offset = {.62}
+					speed={1}
+					style={{marginTop: '18em'}}
+					onClick={() => this.parallax.scrollTo(1)}>
+					<img height = "150px" src="../static/gratimg_3.jpeg" />
+				</ParallaxLayer>
+        		<ParallaxLayer
+        			offset = {.15}
+					speed={0.5}
+					onClick={() => this.parallax.scrollTo(1)}>
+					<h2> Ginger Grater </h2> 
+        		</ParallaxLayer>
+        		<ParallaxLayer
+        			offset = {.2}
 					speed={.75}
 					onClick={() => this.parallax.scrollTo(1)}
 					style={{marginTop: '3em'}}>
-				  <img width="200" src={'../static/blob-shape (3).svg'}/>
+					<Grater />
 				</ParallaxLayer>
-				<ParallaxLayer
-					offset={.58}
-					speed={1}
-					style={{marginTop: '23em'}}
-					onClick={() => this.parallax.scrollTo(1)}>
-					  <p> This is the first product. </p>
-				</ParallaxLayer>
-        <ParallaxLayer
-					offset={0}
-					speed={0.5}
-					onClick={() => this.parallax.scrollTo(1)}
-          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <Rug /> 
-        </ParallaxLayer>
+        		</div>
 
 				{/* PAGE 2 */}
 				<ParallaxLayer
@@ -94,6 +109,24 @@ export class App extends React.Component {
 					</span>
 				</ParallaxLayer>
 			</Parallax>
+			<style jsx>{`
+
+				@font-face {
+				    font-family: 'Misto';
+				    src: url('../static/fonts/Misto.woff');
+				}
+
+				h2 {
+					font-family: 'Misto';
+					font-size: 150%;
+					color: #585858;
+					padding-top: 9em;
+					writing-mode: vertical-rl;
+
+				}
+
+				`} </style> 
+			</div>
 
 			)
 }

@@ -1,26 +1,71 @@
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
-const Products = () => (
-	<div>
-		<div className="parallax">
-			<Parallax>	
-				<img className="blob" width="200em" src={'../static/blob-shape (3).svg'}/>
-			</Parallax>
-		<div className="prod">
-		<Parallax x={[50, 10]} y={[100, 0]}>
-			<img width="400em" className="image" src={'../static/placeholder.png'}/>
-		</Parallax>
-	 <Parallax x={[140, 10]}>
-		<img width = "400em" className = "image" src={'../static/placeholder.png'}/>
-	</Parallax>
-	</div>
-	</div>
-		<style jsx>{`
-			.prod{
-				display: flex;
-				justify-content: space-around;
-			}
+import Link from 'next/Link'
 
-		`}</style>
-  </div>
-)
-export default Products
+export class App extends React.Component {
+	constructor(props) {
+		super(props);
+  	this.state = {}
+	}
+
+	render () {
+		return (
+		<div className = "flex">
+			<h1 id='title'> Whisp </h1>
+			<div className = "grid">
+				<div className = "box color-a"> 
+					<img height ="150px" src = {"../static/button_svg.svg"}/>
+				</div>
+				<div className = "box color-b"> 
+				<img height ="200px" src = {"../static/teapot_test.png"} />
+				</div>
+				<div className = "box color-a"> </div>
+				<div className = "box color-b"> </div>
+				<div className = "box color-a"> </div>
+				<div className = "box color-b"> </div>
+			</div>
+
+			<style jsx>{`
+				@font-face {
+				    font-family: 'Misto';
+				    src: url('../static/fonts/Misto.woff');
+				}
+
+				body {
+					background: pink;
+				}
+				#title {
+					font-family: 'Misto';
+					font-size: 300%;
+				}
+				.flex {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+				}
+				.grid {
+					background: red;
+					width: 600px;
+					display: flex;
+					flex-wrap: wrap;
+				}
+
+				.box {
+					height: 00px;
+					width: 200px;
+				}
+
+				.color-a {
+					background: yellow;
+				}
+
+				.color-b {
+					background: #c7f8fc;
+				}
+
+				`} </style> 
+		</div>
+		)
+	}
+}
+
+export default App;

@@ -93,6 +93,178 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./comps/grater.js":
+/*!*************************!*\
+  !*** ./comps/grater.js ***!
+  \*************************/
+/*! exports provided: Grater, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grater", function() { return Grater; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/Link */ "next/Link");
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/grater.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Grater extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "playSound", () => {
+      console.log('alksdj');
+      var thissound = document.getElementById('mySound');
+      thissound.volume = 0.03;
+      thissound.play();
+    });
+
+    _defineProperty(this, "stopSound", () => {
+      var thissound = document.getElementById('mySound');
+      thissound.pause();
+      thissound.currentTime = 0;
+    });
+
+    this.state = {};
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "jsx-3940202219" + " " + "flex",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-3940202219" + " " + "grid",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-3940202219" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "50px",
+      src: "../static/grater1.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    })), __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-3940202219" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "50px",
+      src: "../static/grater1.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }), " "), __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-3940202219" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "50px",
+      src: "../static/grater1.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    })), __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-3940202219" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "50px",
+      src: "../static/grater1.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    })), __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-3940202219" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "50px",
+      src: "../static/grater1.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }))), __jsx("audio", {
+      id: "mySound",
+      src: "../static/glass.mp3",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "3940202219",
+      __self: this
+    }, "#title.jsx-3940202219{font-family:'Misto';font-size:300%;}.grid.jsx-3940202219{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.g.jsx-3940202219:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9ncmF0ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBK0NlLEFBSTBCLEFBS1AsQUFLUyxvQkFUUCxlQUNoQix1Q0FJZ0IsSUFLaEIscURBSkEiLCJmaWxlIjoiL1VzZXJzL2pta2xlZmVrZXIvczIwL3doaXNwL2NvbXBzL2dyYXRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgcmVuZGVyIH0gZnJvbSBcInJlYWN0LWRvbVwiO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9MaW5rJ1xuXG5leHBvcnQgY2xhc3MgR3JhdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG4gIFx0dGhpcy5zdGF0ZSA9IHt9XG4gIH1cbiAgXHRwbGF5U291bmQgPSAoKSA9PiB7XG4gIFx0Y29uc29sZS5sb2coJ2Fsa3NkaicpXG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC52b2x1bWUgPSAwLjAzO1xuICAgIHRoaXNzb3VuZC5wbGF5KCk7XG5cdH1cblxuXHRzdG9wU291bmQgPSAoKSA9PiB7XG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC5wYXVzZSgpO1xuICAgIHRoaXNzb3VuZC5jdXJyZW50VGltZSA9IDA7XG5cdH1cblxuXG5cdHJlbmRlciAoKSB7XG5cdFx0cmV0dXJuIChcblx0XHQ8ZGl2IGNsYXNzTmFtZSA9IFwiZmxleFwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWUgPSBcImdyaWRcIiA+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+XG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PGRpdiBvbk1vdXNlRW50ZXI9e3RoaXMucGxheVNvdW5kfSBvbk1vdXNlTGVhdmU9e3RoaXMuc3RvcFNvdW5kfSBjbGFzc05hbWUgPSBcImdcIj4gXG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPiA8L2Rpdj5cblx0XHRcdFx0PGRpdiBvbk1vdXNlRW50ZXI9e3RoaXMucGxheVNvdW5kfSBvbk1vdXNlTGVhdmU9e3RoaXMuc3RvcFNvdW5kfSBjbGFzc05hbWUgPSBcImdcIj4gXG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPiBcblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI1MHB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcjEucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI1MHB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcjEucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cblx0XHRcdDwvZGl2PlxuXG5cdFx0XHQ8YXVkaW8gaWQ9J215U291bmQnIHNyYz0nLi4vc3RhdGljL2dsYXNzLm1wMycvPlxuXG5cdFx0XHQ8c3R5bGUganN4PntgXG5cblx0XHRcdFx0I3RpdGxlIHtcblx0XHRcdFx0XHRmb250LWZhbWlseTogJ01pc3RvJztcblx0XHRcdFx0XHRmb250LXNpemU6IDMwMCU7XG5cdFx0XHRcdH1cblx0XHRcdFx0XG5cdFx0XHRcdC5ncmlkIHtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRcdGZsZXgtd3JhcDogd3JhcDtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdC5nOmhvdmVyIHtcblx0XHRcdFx0XHR0cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xuXHRcdFx0XHR9XG5cblx0XHRcdFx0YH0gPC9zdHlsZT4gXG5cdFx0PC9kaXY+XG5cblx0XHQpXG5cdH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgR3JhdGVyO1xuIl19 */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/grater.js */"));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (Grater);
+
+/***/ }),
+
 /***/ "./comps/nav.js":
 /*!**********************!*\
   !*** ./comps/nav.js ***!
@@ -182,17 +354,19 @@ const Nav = () => __jsx("div", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/Link */ "next/Link");
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _rug_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./rug.js */ "./comps/rug.js");
-/* harmony import */ var _seq_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./seq.js */ "./comps/seq.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/Link */ "next/Link");
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _comps_grater__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../comps/grater */ "./comps/grater.js");
 var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/parallax.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 const {
   Parallax,
@@ -202,8 +376,7 @@ const {
 
 
 
-
-class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class App extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -213,7 +386,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return __jsx(Parallax, {
+    return __jsx("div", {
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, __jsx(Parallax, {
       pages: 4,
       scrolling: true,
       horizontal: true,
@@ -223,8 +403,94 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 18
       },
       __self: this
+    }, __jsx("div", {
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
     }, __jsx(ParallaxLayer, {
-      offset: 0.23,
+      offset: .2,
+      speed: 1,
+      style: {
+        marginTop: '7em'
+      },
+      onClick: () => this.parallax.scrollTo(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: "../static/gratimg_1.jpeg",
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: .62,
+      speed: 1,
+      style: {
+        marginTop: '7em'
+      },
+      onClick: () => this.parallax.scrollTo(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "150px",
+      src: "../static/gratimg_2.jpeg",
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: .62,
+      speed: 1,
+      style: {
+        marginTop: '18em'
+      },
+      onClick: () => this.parallax.scrollTo(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "150px",
+      src: "../static/gratimg_3.jpeg",
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: .15,
+      speed: 0.5,
+      onClick: () => this.parallax.scrollTo(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, __jsx("h2", {
+      className: "jsx-1635709391",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, " Ginger Grater ")), __jsx(ParallaxLayer, {
+      offset: .2,
       speed: .75,
       onClick: () => this.parallax.scrollTo(1),
       style: {
@@ -232,56 +498,16 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 48
       },
       __self: this
-    }, __jsx("img", {
-      width: "200",
-      src: '../static/blob-shape (3).svg',
+    }, __jsx(_comps_grater__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 53
       },
       __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: .58,
-      speed: 1,
-      style: {
-        marginTop: '23em'
-      },
-      onClick: () => this.parallax.scrollTo(1),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }, __jsx("p", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }, " This is the first product. ")), __jsx(ParallaxLayer, {
-      offset: 0,
-      speed: 0.5,
-      onClick: () => this.parallax.scrollTo(1),
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, __jsx(_rug_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39
-      },
-      __self: this
-    })), __jsx(ParallaxLayer, {
+    }))), __jsx(ParallaxLayer, {
       offset: 1,
       speed: 0.5,
       style: {
@@ -292,22 +518,23 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: () => this.parallax.scrollTo(2),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 58
       },
       __self: this
     }, __jsx("div", {
-      className: "p5",
+      className: "jsx-1635709391" + " " + "p5",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 63
       },
       __self: this
     }, __jsx("img", {
       width: "400em",
       src: '../static/placeholder.png',
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 64
       },
       __self: this
     }))), __jsx(ParallaxLayer, {
@@ -319,15 +546,16 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 67
       },
       __self: this
     }, __jsx("img", {
       width: "200",
       src: '../static/blob-shape (4).svg',
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 72
       },
       __self: this
     })), __jsx(ParallaxLayer, {
@@ -339,13 +567,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: () => this.parallax.scrollTo(2),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 74
       },
       __self: this
     }, __jsx("p", {
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 79
       },
       __self: this
     }, " This is the second product. ")), __jsx(ParallaxLayer, {
@@ -359,15 +588,16 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: () => this.parallax.scrollTo(0),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 82
       },
       __self: this
     }, __jsx("img", {
       width: "400em",
       src: '../static/placeholder.png',
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 87
       },
       __self: this
     })), __jsx(ParallaxLayer, {
@@ -380,15 +610,16 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: () => this.parallax.scrollTo(0),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 89
       },
       __self: this
     }, __jsx("img", {
       width: "200",
       src: '../static/blob-shape (3).svg',
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 94
       },
       __self: this
     })), __jsx(ParallaxLayer, {
@@ -401,13 +632,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: () => this.parallax.scrollTo(0),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 96
       },
       __self: this
     }, __jsx("p", {
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 101
       },
       __self: this
     }, " This is the third product. ")), __jsx(ParallaxLayer, {
@@ -420,284 +652,34 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88
+        lineNumber: 103
       },
       __self: this
     }, __jsx("span", {
       onClick: () => this.parallax.scrollTo(0),
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92
+        lineNumber: 107
       },
       __self: this
     }, __jsx("img", {
       width: "400em",
       src: '../static/placeholder.png',
+      className: "jsx-1635709391",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93
+        lineNumber: 108
       },
       __self: this
-    }))));
+    })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "1635709391",
+      __self: this
+    }, "@font-face{font-family:'Misto';src:url('../static/fonts/Misto.woff');}h2.jsx-1635709391{font-family:'Misto';font-size:150%;color:#585858;padding-top:9em;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9wYXJhbGxheC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErR2UsQUFJNkIsQUFLSCxvQkFKcUIsQUFLMUIsZUFDRCxjQUNFLFNBTmpCLE9BTzBCLGlGQUUxQiIsImZpbGUiOiIvVXNlcnMvam1rbGVmZWtlci9zMjAvd2hpc3AvY29tcHMvcGFyYWxsYXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCB7IFBhcmFsbGF4LCBQYXJhbGxheExheWVyIH0gPSByZXF1aXJlKCdyZWFjdC1zcHJpbmcvYWRkb25zLmNqcycpO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9MaW5rJ1xuaW1wb3J0IGR5bmFtaWMgZnJvbSAnbmV4dC9keW5hbWljJztcbmltcG9ydCBHcmF0ZXIgZnJvbSAnLi4vY29tcHMvZ3JhdGVyJ1xuXG5leHBvcnQgY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG4gIFx0dGhpcy5zdGF0ZSA9IHtcbiAgIFx0XHR4OiAxMDAsXG4gIFx0XHR5OiAxMDBcbiAgICB9XG5cdH1cblxuXHRyZW5kZXIgKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8ZGl2PlxuXHRcdFx0PFBhcmFsbGF4IHBhZ2VzPXs0fSBzY3JvbGxpbmc9e3RydWV9IGhvcml6b250YWwgcmVmPXtyZWYgPT4gKHRoaXMucGFyYWxsYXggPSByZWYpfT5cblx0XHRcdFx0ey8qIFBBR0UgMSAqL31cblx0XHRcdFx0PGRpdj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0ICAgIG9mZnNldCA9IHsuMn1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzdlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMSl9PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIzMjVweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0aW1nXzEuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0ICAgIG9mZnNldCA9IHsuNjJ9XG5cdFx0XHRcdFx0c3BlZWQ9ezF9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICc3ZW0nfX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfT5cblx0XHRcdFx0XHQ8aW1nIGhlaWdodCA9IFwiMTUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGltZ18yLmpwZWdcIiAvPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdCAgICBvZmZzZXQgPSB7LjYyfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMThlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMSl9PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIxNTBweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0aW1nXzMuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cbiAgICAgICAgXHRcdDxQYXJhbGxheExheWVyXG4gICAgICAgIFx0XHRcdG9mZnNldCA9IHsuMTV9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfT5cblx0XHRcdFx0XHQ8aDI+IEdpbmdlciBHcmF0ZXIgPC9oMj4gXG4gICAgICAgIFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG4gICAgICAgIFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7LjJ9XG5cdFx0XHRcdFx0c3BlZWQ9ey43NX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnM2VtJ319PlxuXHRcdFx0XHRcdDxHcmF0ZXIgLz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuICAgICAgICBcdFx0PC9kaXY+XG5cblx0XHRcdFx0ey8qIFBBR0UgMiAqL31cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0XHRvZmZzZXQ9ezF9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicgfX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDIpfT5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInA1XCI+XG4gIFx0XHRcdFx0ICA8aW1nIHdpZHRoPVwiNDAwZW1cIiBzcmM9eycuLi9zdGF0aWMvcGxhY2Vob2xkZXIucG5nJ30vPlxuICAgICAgICAgIDwvZGl2PlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsxLjU4fVxuXHRcdFx0XHRcdHNwZWVkPXsuNzV9XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygyKX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzNlbSd9fT5cblx0XHRcdFx0ICAgIDxpbWcgd2lkdGg9XCIyMDBcIiBzcmM9eycuLi9zdGF0aWMvYmxvYi1zaGFwZSAoNCkuc3ZnJ30vPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsxLjIzfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMjNlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMil9PlxuXHRcdFx0XHRcdCAgPHA+IFRoaXMgaXMgdGhlIHNlY29uZCBwcm9kdWN0LiA8L3A+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0ey8qIFBBR0UgMyAqL31cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0XHRvZmZzZXQ9ezJ9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRzdHlsZT17e2Rpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyB9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMCl9PlxuXHRcdFx0XHRcdFx0PGltZyB3aWR0aD1cIjQwMGVtXCIgc3JjPXsnLi4vc3RhdGljL3BsYWNlaG9sZGVyLnBuZyd9Lz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mi4yM31cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7ekluZGV4OiAnMScsIG1hcmdpblRvcDogJzNlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMCl9PlxuXHRcdFx0XHQ8aW1nIHdpZHRoPVwiMjAwXCIgc3JjPXsnLi4vc3RhdGljL2Jsb2Itc2hhcGUgKDMpLnN2Zyd9Lz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mi41OH1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e3pJbmRleDogJzInLCBtYXJnaW5Ub3A6ICcyM2VtJ319XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygwKX0+XG5cdFx0XHRcdFx0PHA+IFRoaXMgaXMgdGhlIHRoaXJkIHByb2R1Y3QuIDwvcD5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuICAgICAgICA8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mn1cblx0XHRcdFx0XHRzcGVlZD17MC41fVxuXHRcdFx0XHRcdHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyB9fT5cblx0XHRcdFx0XHQ8c3BhbiBvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDApfT5cblx0XHRcdFx0XHRcdDxpbWcgd2lkdGg9XCI0MDBlbVwiIHNyYz17Jy4uL3N0YXRpYy9wbGFjZWhvbGRlci5wbmcnfS8+XG5cdFx0XHRcdFx0PC9zcGFuPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHQ8L1BhcmFsbGF4PlxuXHRcdFx0PHN0eWxlIGpzeD57YFxuXG5cdFx0XHRcdEBmb250LWZhY2Uge1xuXHRcdFx0XHQgICAgZm9udC1mYW1pbHk6ICdNaXN0byc7XG5cdFx0XHRcdCAgICBzcmM6IHVybCgnLi4vc3RhdGljL2ZvbnRzL01pc3RvLndvZmYnKTtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdGgyIHtcblx0XHRcdFx0XHRmb250LWZhbWlseTogJ01pc3RvJztcblx0XHRcdFx0XHRmb250LXNpemU6IDE1MCU7XG5cdFx0XHRcdFx0Y29sb3I6ICM1ODU4NTg7XG5cdFx0XHRcdFx0cGFkZGluZy10b3A6IDllbTtcblx0XHRcdFx0XHR3cml0aW5nLW1vZGU6IHZlcnRpY2FsLXJsO1xuXG5cdFx0XHRcdH1cblxuXHRcdFx0XHRgfSA8L3N0eWxlPiBcblx0XHRcdDwvZGl2PlxuXG5cdFx0XHQpXG59XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/parallax.js */"));
   }
 
 }
 /* harmony default export */ __webpack_exports__["default"] = (App);
-
-/***/ }),
-
-/***/ "./comps/rug.js":
-/*!**********************!*\
-  !*** ./comps/rug.js ***!
-  \**********************/
-/*! exports provided: Rug, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Rug", function() { return Rug; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/rug.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-class Rug extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.rugRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
-    this.state = {
-      x: 100,
-      y: 100
-    };
-  }
-
-  componentDidMount() {
-    const p5 = __webpack_require__(/*! p5 */ "p5");
-
-    __webpack_require__(/*! p5/lib/addons/p5.sound */ "p5/lib/addons/p5.sound");
-
-    this.rugSketch = new p5(p => {
-      var rows = 0,
-          cols = 0,
-          space = 33,
-          scl = 0,
-          rot = 0,
-          marg = 3;
-      p.disableFriendlyErrors = true;
-
-      p.setup = () => {
-        p.createCanvas(p.windowWidth, p.windowHeight).parent(this.rugRef.current);
-        rows = p.windowWidth / space;
-        cols = p.windowHeight / space;
-      };
-      /*	p.windowResized = () => {
-      		p.resizeCanvas(p.windowWidth, p.windowHeight )
-          }*/
-
-
-      p.draw = () => {
-        p.background(255); //p.noStroke();
-
-        for (var i = 0; i <= rows; i++) {
-          for (var j = 0; j < cols; j++) {
-            var offSet = p.PI + p.PI / rows * i + p.PI / cols * j;
-            var x = (i + .5) * space;
-            var y = (j + .5) * space;
-            var chaosX = p.mouseX - x;
-            var chaosY = p.mouseY - y; // p.noStroke();
-
-            p.fill(255, 213, 110);
-            var orient = p.atan2(chaosY, chaosX);
-            var pacMan = p.map(p.cos(rot / 7 + offSet), -111, 111, p.radians(900000), p.TWO_PI);
-            scl = space * .90;
-            p.push();
-            p.translate(x + marg, y + marg);
-            p.rotate(orient + rot);
-            p.line(0, 0, scl, scl);
-            p.pop();
-          }
-        }
-
-        rot += 0.003;
-      };
-    });
-  }
-
-  render() {
-    return __jsx("div", {
-      className: "p5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 69
-      },
-      __self: this
-    }, __jsx("div", {
-      ref: this.rugRef,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 70
-      },
-      __self: this
-    }));
-  }
-
-}
-/* harmony default export */ __webpack_exports__["default"] = (Rug);
-
-/***/ }),
-
-/***/ "./comps/seq.js":
-/*!**********************!*\
-  !*** ./comps/seq.js ***!
-  \**********************/
-/*! exports provided: Seq, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Seq", function() { return Seq; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/seq.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-class Seq extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.seqRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
-    this.state = {
-      x: 100,
-      y: 100
-    };
-  }
-
-  componentDidMount() {
-    const p5 = __webpack_require__(/*! p5 */ "p5");
-
-    __webpack_require__(/*! p5/lib/addons/p5.sound */ "p5/lib/addons/p5.sound");
-
-    this.seqSketch = new p5(p => {
-      let osc,
-          envelope,
-          mySound,
-          mouseMoved = "";
-      let res = 30;
-      let seqs = [];
-      p.disableFriendlyErrors = true;
-
-      p.setup = () => {
-        p.createCanvas(400, 400).parent(this.seqRef.current);
-        var countX = p.ceil(p.width / res) + 1;
-        var countY = p.ceil(p.height / res) + 1; //osc = new p5.SinOsc();
-        //envelope = new p5.Env();
-        //envelope.setADSR(0.001, 0.5, 0.1, 0.5);
-        //envelope.setRange(1, 0);
-        //osc.start();
-
-        for (var j = 0; j < countY; j++) {
-          for (var i = 0; i < countX; i++) {
-            seqs.push({
-              x: res * i,
-              y: res * j,
-              color: "pink",
-              visited: false
-            });
-          }
-        }
-      };
-
-      p.windowResized = () => {
-        p.resizeCanvas(p.windowWidth, p.windowHeight);
-      };
-      /*
-      p.mouseMoved = () => {
-      p.userStartAudio()
-      mouseMoved = (p.mouseX / p.width - 0.5) * 4
-      if(mouseMoved < 1 && mouseMoved > 0.5) {
-          let freqValue = p.midiToFreq(60);
-          osc.freq(freqValue);
-          envelope.play(osc, 0, 0.1);
-      } 
-      if(mouseMoved > 0 && mouseMoved < 0.5) {
-          let freqValue = p.midiToFreq(62);
-          osc.freq(freqValue);
-          envelope.play(osc, 0, 0.1);
-      }
-      if(mouseMoved < 0 && mouseMoved < -(0.5)) {
-          let freqValue = p.midiToFreq(64);
-          osc.freq(freqValue);
-          envelope.play(osc, 0, 0.1);
-      }
-      if(mouseMoved > -(1.0) && mouseMoved < -(0.5)) {
-          let freqValue = p.midiToFreq(67);
-          osc.freq(freqValue);
-          envelope.play(osc, 0, 0.1);
-      }
-        } */
-
-
-      p.draw = () => {
-        p.cursor(p.HAND);
-
-        for (var i = seqs.length - 1; i >= 0; i--) {
-          let x_bound = seqs[i].x + res;
-          let y_bound = seqs[i].y + res;
-
-          if (p.mouseX > seqs[i].x - res && p.mouseX < x_bound && p.mouseY > seqs[i].y - res && p.mouseY < y_bound) {
-            if (p.mouseX > p.pmouseX) {
-              p.fill("blue");
-              p.circle(seqs[i].x, seqs[i].y, res * 1.5);
-              seqs[i].visited = true;
-              seqs[i].color = "blue";
-            } else if (p.mouseX <= p.pmouseX) {
-              p.fill("pink");
-              p.circle(seqs[i].x, seqs[i].y, res * 1.5);
-              seqs[i].visited = true;
-              seqs[i].color = "pink";
-            }
-          } else if (seqs[i].visited == true && seqs[i].color == "blue") {
-            p.fill("blue");
-            p.circle(seqs[i].x, seqs[i].y, res * 1.5);
-          } else {
-            p.fill("pink");
-            p.circle(seqs[i].x, seqs[i].y, res * 1.5);
-            seqs[i].visited = false;
-          }
-        }
-      };
-
-      function calcVec(x, y) {
-        return new p5.Vector(y - x, -x - y);
-      }
-    });
-  }
-
-  render() {
-    return __jsx("div", {
-      className: "p5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 102
-      },
-      __self: this
-    }, __jsx("div", {
-      ref: this.seqRef,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 103
-      },
-      __self: this
-    }));
-  }
-
-}
-/* harmony default export */ __webpack_exports__["default"] = (Seq);
 
 /***/ }),
 
@@ -2391,23 +2373,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 const Index = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx(_comps_parallax__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
     lineNumber: 6
-  },
-  __self: undefined
-}, __jsx(_comps_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}), __jsx(_comps_parallax__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
   },
   __self: undefined
 }));
@@ -2505,28 +2480,6 @@ module.exports = require("next/dynamic");
 
 /***/ }),
 
-/***/ "p5":
-/*!*********************!*\
-  !*** external "p5" ***!
-  \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("p5");
-
-/***/ }),
-
-/***/ "p5/lib/addons/p5.sound":
-/*!*****************************************!*\
-  !*** external "p5/lib/addons/p5.sound" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("p5/lib/addons/p5.sound");
-
-/***/ }),
-
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -2557,6 +2510,17 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
 
 /***/ }),
 

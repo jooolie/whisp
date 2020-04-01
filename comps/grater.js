@@ -27,18 +27,19 @@ export class Grater extends React.Component {
 		<div className = "flex">
 			<div className = "grid" >
 				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g">
-					<img height = "50px" src="../static/grater1.png" />
+					<img height = "75px" src="../static/grater_green.png" />
 				</div>
 				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g"> 
-					<img height = "50px" src="../static/grater1.png" /> </div>
-				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g"> 
-					<img height = "50px" src="../static/grater1.png" /> 
+					<img height = "75px" src="../static/grater_green.png" />
 				</div>
 				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g"> 
-					<img height = "50px" src="../static/grater1.png" />
+					<img height = "75px" src="../static/grater_green.png" /> 
 				</div>
 				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g"> 
-					<img height = "50px" src="../static/grater1.png" />
+					<img height = "75px" src="../static/grater_green.png" />
+				</div>
+				<div onMouseEnter={this.playSound} onMouseLeave={this.stopSound} className = "g"> 
+					<img height = "75px" src="../static/grater_green.png" />
 				</div>
 
 			</div>

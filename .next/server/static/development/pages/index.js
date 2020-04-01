@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -165,8 +165,8 @@ class Grater extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("img", {
-      height: "50px",
-      src: "../static/grater1.png",
+      height: "75px",
+      src: "../static/grater_green.png",
       className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
@@ -183,66 +183,66 @@ class Grater extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("img", {
-      height: "50px",
-      src: "../static/grater1.png",
+      height: "75px",
+      src: "../static/grater_green.png",
       className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 33
       },
       __self: this
-    }), " "), __jsx("div", {
+    })), __jsx("div", {
       onMouseEnter: this.playSound,
       onMouseLeave: this.stopSound,
       className: "jsx-3940202219" + " " + "g",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, __jsx("img", {
-      height: "50px",
-      src: "../static/grater1.png",
-      className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 35
       },
       __self: this
+    }, __jsx("img", {
+      height: "75px",
+      src: "../static/grater_green.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
     })), __jsx("div", {
       onMouseEnter: this.playSound,
       onMouseLeave: this.stopSound,
       className: "jsx-3940202219" + " " + "g",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37
-      },
-      __self: this
-    }, __jsx("img", {
-      height: "50px",
-      src: "../static/grater1.png",
-      className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 38
       },
       __self: this
+    }, __jsx("img", {
+      height: "75px",
+      src: "../static/grater_green.png",
+      className: "jsx-3940202219",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
     })), __jsx("div", {
       onMouseEnter: this.playSound,
       onMouseLeave: this.stopSound,
       className: "jsx-3940202219" + " " + "g",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 41
       },
       __self: this
     }, __jsx("img", {
-      height: "50px",
-      src: "../static/grater1.png",
+      height: "75px",
+      src: "../static/grater_green.png",
       className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 42
       },
       __self: this
     }))), __jsx("audio", {
@@ -251,13 +251,13 @@ class Grater extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       className: "jsx-3940202219",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 47
       },
       __self: this
     }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
       id: "3940202219",
       __self: this
-    }, "#title.jsx-3940202219{font-family:'Misto';font-size:300%;}.grid.jsx-3940202219{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.g.jsx-3940202219:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9ncmF0ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBK0NlLEFBSTBCLEFBS1AsQUFLUyxvQkFUUCxlQUNoQix1Q0FJZ0IsSUFLaEIscURBSkEiLCJmaWxlIjoiL1VzZXJzL2pta2xlZmVrZXIvczIwL3doaXNwL2NvbXBzL2dyYXRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgcmVuZGVyIH0gZnJvbSBcInJlYWN0LWRvbVwiO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9MaW5rJ1xuXG5leHBvcnQgY2xhc3MgR3JhdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG4gIFx0dGhpcy5zdGF0ZSA9IHt9XG4gIH1cbiAgXHRwbGF5U291bmQgPSAoKSA9PiB7XG4gIFx0Y29uc29sZS5sb2coJ2Fsa3NkaicpXG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC52b2x1bWUgPSAwLjAzO1xuICAgIHRoaXNzb3VuZC5wbGF5KCk7XG5cdH1cblxuXHRzdG9wU291bmQgPSAoKSA9PiB7XG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC5wYXVzZSgpO1xuICAgIHRoaXNzb3VuZC5jdXJyZW50VGltZSA9IDA7XG5cdH1cblxuXG5cdHJlbmRlciAoKSB7XG5cdFx0cmV0dXJuIChcblx0XHQ8ZGl2IGNsYXNzTmFtZSA9IFwiZmxleFwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWUgPSBcImdyaWRcIiA+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+XG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PGRpdiBvbk1vdXNlRW50ZXI9e3RoaXMucGxheVNvdW5kfSBvbk1vdXNlTGVhdmU9e3RoaXMuc3RvcFNvdW5kfSBjbGFzc05hbWUgPSBcImdcIj4gXG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPiA8L2Rpdj5cblx0XHRcdFx0PGRpdiBvbk1vdXNlRW50ZXI9e3RoaXMucGxheVNvdW5kfSBvbk1vdXNlTGVhdmU9e3RoaXMuc3RvcFNvdW5kfSBjbGFzc05hbWUgPSBcImdcIj4gXG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyMS5wbmdcIiAvPiBcblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI1MHB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcjEucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI1MHB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcjEucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cblx0XHRcdDwvZGl2PlxuXG5cdFx0XHQ8YXVkaW8gaWQ9J215U291bmQnIHNyYz0nLi4vc3RhdGljL2dsYXNzLm1wMycvPlxuXG5cdFx0XHQ8c3R5bGUganN4PntgXG5cblx0XHRcdFx0I3RpdGxlIHtcblx0XHRcdFx0XHRmb250LWZhbWlseTogJ01pc3RvJztcblx0XHRcdFx0XHRmb250LXNpemU6IDMwMCU7XG5cdFx0XHRcdH1cblx0XHRcdFx0XG5cdFx0XHRcdC5ncmlkIHtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRcdGZsZXgtd3JhcDogd3JhcDtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdC5nOmhvdmVyIHtcblx0XHRcdFx0XHR0cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xuXHRcdFx0XHR9XG5cblx0XHRcdFx0YH0gPC9zdHlsZT4gXG5cdFx0PC9kaXY+XG5cblx0XHQpXG5cdH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgR3JhdGVyO1xuIl19 */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/grater.js */"));
+    }, "#title.jsx-3940202219{font-family:'Misto';font-size:300%;}.grid.jsx-3940202219{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.g.jsx-3940202219:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9ncmF0ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZ0RlLEFBSTBCLEFBS1AsQUFLUyxvQkFUUCxlQUNoQix1Q0FJZ0IsSUFLaEIscURBSkEiLCJmaWxlIjoiL1VzZXJzL2pta2xlZmVrZXIvczIwL3doaXNwL2NvbXBzL2dyYXRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgcmVuZGVyIH0gZnJvbSBcInJlYWN0LWRvbVwiO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9MaW5rJ1xuXG5leHBvcnQgY2xhc3MgR3JhdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG4gIFx0dGhpcy5zdGF0ZSA9IHt9XG4gIH1cbiAgXHRwbGF5U291bmQgPSAoKSA9PiB7XG4gIFx0Y29uc29sZS5sb2coJ2Fsa3NkaicpXG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC52b2x1bWUgPSAwLjAzO1xuICAgIHRoaXNzb3VuZC5wbGF5KCk7XG5cdH1cblxuXHRzdG9wU291bmQgPSAoKSA9PiB7XG4gICAgdmFyIHRoaXNzb3VuZD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbXlTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC5wYXVzZSgpO1xuICAgIHRoaXNzb3VuZC5jdXJyZW50VGltZSA9IDA7XG5cdH1cblxuXG5cdHJlbmRlciAoKSB7XG5cdFx0cmV0dXJuIChcblx0XHQ8ZGl2IGNsYXNzTmFtZSA9IFwiZmxleFwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWUgPSBcImdyaWRcIiA+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+XG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjc1cHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyX2dyZWVuLnBuZ1wiIC8+XG5cdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHQ8ZGl2IG9uTW91c2VFbnRlcj17dGhpcy5wbGF5U291bmR9IG9uTW91c2VMZWF2ZT17dGhpcy5zdG9wU291bmR9IGNsYXNzTmFtZSA9IFwiZ1wiPiBcblx0XHRcdFx0XHQ8aW1nIGhlaWdodCA9IFwiNzVweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0ZXJfZ3JlZW4ucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI3NXB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcl9ncmVlbi5wbmdcIiAvPiBcblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+IFxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCI3NXB4XCIgc3JjPVwiLi4vc3RhdGljL2dyYXRlcl9ncmVlbi5wbmdcIiAvPlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PGRpdiBvbk1vdXNlRW50ZXI9e3RoaXMucGxheVNvdW5kfSBvbk1vdXNlTGVhdmU9e3RoaXMuc3RvcFNvdW5kfSBjbGFzc05hbWUgPSBcImdcIj4gXG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjc1cHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGVyX2dyZWVuLnBuZ1wiIC8+XG5cdFx0XHRcdDwvZGl2PlxuXG5cdFx0XHQ8L2Rpdj5cblxuXHRcdFx0PGF1ZGlvIGlkPSdteVNvdW5kJyBzcmM9Jy4uL3N0YXRpYy9nbGFzcy5tcDMnLz5cblxuXHRcdFx0PHN0eWxlIGpzeD57YFxuXG5cdFx0XHRcdCN0aXRsZSB7XG5cdFx0XHRcdFx0Zm9udC1mYW1pbHk6ICdNaXN0byc7XG5cdFx0XHRcdFx0Zm9udC1zaXplOiAzMDAlO1xuXHRcdFx0XHR9XG5cdFx0XHRcdFxuXHRcdFx0XHQuZ3JpZCB7XG5cdFx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0XHRmbGV4LXdyYXA6IHdyYXA7XG5cdFx0XHRcdH1cblxuXHRcdFx0XHQuZzpob3ZlciB7XG5cdFx0XHRcdFx0dHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdGB9IDwvc3R5bGU+IFxuXHRcdDwvZGl2PlxuXG5cdFx0KVxuXHR9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEdyYXRlcjtcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/grater.js */"));
   }
 
 }
@@ -287,58 +287,30 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const Nav = () => __jsx("div", {
-  className: "jsx-522538918" + " " + "nav",
+  className: "jsx-2637810242" + " " + "nav",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("p", {
-  className: "jsx-522538918",
+  className: "jsx-2637810242" + " " + "title",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, " Whisp "), __jsx("ul", {
-  className: "jsx-522538918" + " " + "links",
+}, " Whisp "), __jsx("p", {
+  className: "jsx-2637810242" + " " + "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, __jsx("li", {
-  className: "jsx-522538918",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
+}, " Spring Collection: 29,99:-/month "), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "2637810242",
   __self: undefined
-}, " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, " shop "), " "), __jsx("li", {
-  className: "jsx-522538918",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/about",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, " about "), " ")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "522538918",
-  __self: undefined
-}, "@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Source+Code+Pro');.nav.jsx-522538918{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}p.jsx-522538918{margin-left:.5em;font-family:'DM Serif Text';}.links.jsx-522538918{font-family:'Source Code Pro';list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-right:.4em;-webkit-text-decoration:none;text-decoration:none;}li.jsx-522538918{padding-left:.3em;padding-right:.3em;color:blue;}li.jsx-522538918: active.jsx-522538918{color:blue;}li.jsx-522538918: visited.jsx-522538918{color:blue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9uYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU2lCLEFBRXdGLEFBRXBFLEFBTUksQUFLYSxBQU9aLEFBTUwsQUFJQSxXQUhiLEFBSUEsTUF0QjRCLENBWVQsWUFQSCxPQVFMLFFBWlgsQ0FLYSxFQVFiLDBCQXBCOEIsOENBYVosa0JBQ0csa0RBQ3hCLENBZHNCLDZGQUNuQiIsImZpbGUiOiIvVXNlcnMvam1rbGVmZWtlci9zMjAvd2hpc3AvY29tcHMvbmF2LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5jb25zdCBOYXYgPSAoKSA9PiAoXG48ZGl2IGNsYXNzTmFtZT1cIm5hdlwiPlxuICAgIDxwPiBXaGlzcCA8L3A+XG4gICAgPHVsIGNsYXNzTmFtZT1cImxpbmtzXCI+XG4gICAgICA8bGk+IDxMaW5rIGhyZWY9Jy8nPiBzaG9wIDwvTGluaz4gPC9saT5cbiAgICAgIDxsaT4gPExpbmsgaHJlZj0nL2Fib3V0Jz4gYWJvdXQgPC9MaW5rPiA8L2xpPlxuICAgIDwvdWw+XG4gICAgPHN0eWxlIGpzeD4ge2Bcblx0XHRcdEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9RE0rU2VyaWYrVGV4dHxTb3VyY2UrQ29kZStQcm8nKTtcbiAgICAgIC5uYXYge1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICB9XG5cbiAgICAgIHAge1xuICAgICAgbWFyZ2luLWxlZnQ6IC41ZW07XG4gICAgICBmb250LWZhbWlseTogJ0RNIFNlcmlmIFRleHQnO1xuICAgICAgfVxuXG4gICAgICAubGlua3Mge1xuICAgICAgZm9udC1mYW1pbHk6ICdTb3VyY2UgQ29kZSBQcm8nO1xuICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBtYXJnaW4tcmlnaHQ6IC40ZW07XG4gICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdFx0XHR9XG5cdFx0XHRsaSB7XG4gICAgICBwYWRkaW5nLWxlZnQ6IC4zZW07XG4gICAgICBwYWRkaW5nLXJpZ2h0OiAuM2VtO1xuICAgICAgY29sb3I6IGJsdWU7XG4gICAgICB9XG5cbiAgICAgIGxpOiBhY3RpdmUge1xuICAgICAgICBjb2xvcjogYmx1ZTtcbiAgICAgIH1cblxuICAgICAgbGk6IHZpc2l0ZWQge1xuICAgICAgICBjb2xvcjogYmx1ZTtcbiAgICAgIH1cbiAgICAgIFxuICAgIGB9IDwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5leHBvcnQgZGVmYXVsdCBOYXZcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/nav.js */"));
+}, "@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Source+Code+Pro');@font-face{font-family:'Misto';src:url('../static/fonts/Misto.woff');}.nav.jsx-2637810242{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:-0.4em;position:fixed;}.title.jsx-2637810242{margin-left:1em;font-family:'Misto';font-size:170%;color:black;}.desc.jsx-2637810242{font-family:'Misto';font-size:100%;margin-left:2em;color:gray;}.links.jsx-2637810242{font-family:'Source Code Pro';list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-left:55em;margin-right:1em;-webkit-text-decoration:none;text-decoration:none;}li.jsx-2637810242{padding-left:.4em;padding-right:.4em;color:gray;}li.jsx-2637810242: active.jsx-2637810242{color:black;}li.jsx-2637810242: visited.jsx-2637810242{color:gray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9uYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2lCLEFBRXdGLEFBR3ZELEFBS2IsQUFVRyxBQU9JLEFBT1UsQUFVWixBQU1KLEFBSUQsV0FDYixDQUpBLElBOUJvQixFQXdCRCxFQXZDeUIsQUFzQjdCLFVBT0MsS0FOQSxDQVBELENBd0JKLFNBVkUsRUFXYixHQXhCWSxBQU9ELE9BdkJULElBd0JGLENBUEEsV0FiOEIsOENBMEJiLGlCQUNBLGlCQUNJLG1DQTNCRixlQTRCdEIsOEVBM0JxQixrQkFDSCxlQUdmIiwiZmlsZSI6Ii9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9uYXYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cbmNvbnN0IE5hdiA9ICgpID0+IChcbjxkaXYgY2xhc3NOYW1lPVwibmF2XCI+XG4gICAgPHAgY2xhc3NOYW1lPVwidGl0bGVcIj4gV2hpc3AgPC9wPlxuICAgIDxwIGNsYXNzTmFtZT1cImRlc2NcIj4gU3ByaW5nIENvbGxlY3Rpb246IDI5LDk5Oi0vbW9udGggPC9wPlxuICAgXG4gICAgPHN0eWxlIGpzeD4ge2Bcblx0XHRcdEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9RE0rU2VyaWYrVGV4dHxTb3VyY2UrQ29kZStQcm8nKTtcblxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnTWlzdG8nO1xuICAgICAgICAgICAgc3JjOiB1cmwoJy4uL3N0YXRpYy9mb250cy9NaXN0by53b2ZmJyk7XG4gICAgICAgIH1cblxuICAgICAgLm5hdiB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgIG1hcmdpbi10b3A6IC0wLjRlbTtcbiAgICAgIHBvc2l0aW9uOiBmaXhlZDtcblxuXG4gICAgICB9XG5cbiAgICAgIC50aXRsZSB7XG4gICAgICBtYXJnaW4tbGVmdDogMWVtO1xuICAgICAgZm9udC1mYW1pbHk6ICdNaXN0byc7XG4gICAgICBmb250LXNpemU6IDE3MCU7XG4gICAgICBjb2xvcjogYmxhY2s7XG4gICAgICB9XG5cbiAgICAgIC5kZXNjIHtcbiAgICAgIGZvbnQtZmFtaWx5OiAnTWlzdG8nO1xuICAgICAgZm9udC1zaXplOiAxMDAlO1xuICAgICAgbWFyZ2luLWxlZnQ6IDJlbTtcbiAgICAgIGNvbG9yOiBncmF5O1xuICAgICAgfVxuXG4gICAgICAubGlua3Mge1xuICAgICAgZm9udC1mYW1pbHk6ICdTb3VyY2UgQ29kZSBQcm8nO1xuICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBtYXJnaW4tbGVmdDogNTVlbTtcbiAgICAgIG1hcmdpbi1yaWdodDogMWVtO1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRcdFx0fVxuICAgICAgXG5cblx0XHRcdGxpIHtcbiAgICAgIHBhZGRpbmctbGVmdDogLjRlbTtcbiAgICAgIHBhZGRpbmctcmlnaHQ6IC40ZW07XG4gICAgICBjb2xvcjogZ3JheTtcbiAgICAgIH1cblxuICAgICAgbGk6IGFjdGl2ZSB7XG4gICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgIH1cblxuICAgICAgbGk6IHZpc2l0ZWQge1xuICAgICAgICBjb2xvcjogZ3JheTtcbiAgICAgIH1cbiAgICAgIFxuICAgIGB9IDwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5leHBvcnQgZGVmYXVsdCBOYXZcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/nav.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
 
@@ -363,6 +335,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _comps_grater__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../comps/grater */ "./comps/grater.js");
+/* harmony import */ var _comps_vase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../comps/vase */ "./comps/vase.js");
+/* harmony import */ var _comps_seq__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../comps/seq */ "./comps/seq.js");
 var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/parallax.js";
 
 
@@ -372,6 +346,8 @@ const {
   Parallax,
   ParallaxLayer
 } = __webpack_require__(/*! react-spring/addons.cjs */ "react-spring/addons.cjs");
+
+
 
 
 
@@ -387,10 +363,10 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 
   render() {
     return __jsx("div", {
-      className: "jsx-1635709391",
+      className: "jsx-3444269292" + " " + "wrapper",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 19
       },
       __self: this
     }, __jsx(Parallax, {
@@ -400,286 +376,639 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       ref: ref => this.parallax = ref,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
     }, __jsx(ParallaxLayer, {
-      offset: .2,
-      speed: 1,
+      offset: 0.35,
+      speed: .75,
       style: {
-        marginTop: '7em'
+        marginTop: '10em'
       },
-      onClick: () => this.parallax.scrollTo(1),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 22
       },
       __self: this
-    }, __jsx("img", {
-      height: "325px",
-      src: "../static/gratimg_1.jpeg",
-      className: "jsx-1635709391",
+    }, __jsx("p", {
+      className: "jsx-3444269292" + " " + "welcome",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26
       },
       __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: .62,
-      speed: 1,
+    }, " Spring Collection ")), __jsx(ParallaxLayer, {
+      offset: 0.35,
+      speed: .75,
       style: {
-        marginTop: '7em'
+        marginTop: '15em'
       },
-      onClick: () => this.parallax.scrollTo(1),
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
       },
       __self: this
-    }, __jsx("img", {
-      height: "150px",
-      src: "../static/gratimg_2.jpeg",
-      className: "jsx-1635709391",
+    }, __jsx("p", {
+      className: "jsx-3444269292" + " " + "headphones",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 32
       },
       __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: .62,
-      speed: 1,
+    }, " 29,99:- per month ")), __jsx(ParallaxLayer, {
+      offset: 0.35,
+      speed: .75,
       style: {
-        marginTop: '18em'
+        marginTop: '17em',
+        height: "60px",
+        width: "60px"
       },
-      onClick: () => this.parallax.scrollTo(1),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 34
       },
       __self: this
-    }, __jsx("img", {
-      height: "150px",
-      src: "../static/gratimg_3.jpeg",
-      className: "jsx-1635709391",
+    }, __jsx("p", {
+      className: "jsx-3444269292" + " " + "headphones",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, " please wear headphones ")), __jsx(ParallaxLayer, {
+      offset: 0.92,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(1),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 40
       },
       __self: this
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 1.25,
+      speed: 0.5,
+      style: {
+        marginTop: '7em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: '../static/plantimg_1.jpeg',
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
     })), __jsx(ParallaxLayer, {
-      offset: .15,
-      speed: 0.5,
-      onClick: () => this.parallax.scrollTo(1),
+      offset: 1.1,
+      speed: 1,
+      style: {
+        marginTop: '11em'
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 56
       },
       __self: this
-    }, __jsx("h2", {
-      className: "jsx-1635709391",
+    }, __jsx("img", {
+      height: "150px",
+      src: "../static/plantimg_2.jpeg",
+      className: "jsx-3444269292",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 60
       },
       __self: this
-    }, " Ginger Grater ")), __jsx(ParallaxLayer, {
-      offset: .2,
+    })), __jsx(ParallaxLayer, {
+      offset: 1.1,
+      speed: 1,
+      style: {
+        marginTop: '22em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "150px",
+      src: "../static/plantimg_3.jpeg",
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 1.7,
+      style: {
+        marginTop: '7em'
+      },
+      speed: 1,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, __jsx(_comps_seq__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 1.03,
       speed: .75,
-      onClick: () => this.parallax.scrollTo(1),
+      onClick: () => this.parallax.scrollTo(0),
       style: {
-        marginTop: '3em'
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
-      },
-      __self: this
-    }, __jsx(_comps_grater__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
-      },
-      __self: this
-    }))), __jsx(ParallaxLayer, {
-      offset: 1,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      onClick: () => this.parallax.scrollTo(2),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 77
       },
       __self: this
     }, __jsx("div", {
-      className: "jsx-1635709391" + " " + "p5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63
-      },
-      __self: this
-    }, __jsx("img", {
-      width: "400em",
-      src: '../static/placeholder.png',
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 64
-      },
-      __self: this
-    }))), __jsx(ParallaxLayer, {
-      offset: 1.58,
-      speed: .75,
-      onClick: () => this.parallax.scrollTo(2),
-      style: {
-        marginTop: '3em'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 67
-      },
-      __self: this
-    }, __jsx("img", {
-      width: "200",
-      src: '../static/blob-shape (4).svg',
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 72
-      },
-      __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: 1.23,
-      speed: 1,
-      style: {
-        marginTop: '23em'
-      },
-      onClick: () => this.parallax.scrollTo(2),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 74
-      },
-      __self: this
-    }, __jsx("p", {
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79
-      },
-      __self: this
-    }, " This is the second product. ")), __jsx(ParallaxLayer, {
-      offset: 2,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
-      onClick: () => this.parallax.scrollTo(0),
+      className: "jsx-3444269292" + " " + "arrow-left",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 82
       },
       __self: this
-    }, __jsx("img", {
-      width: "400em",
-      src: '../static/placeholder.png',
-      className: "jsx-1635709391",
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 1.92,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(2),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87
+        lineNumber: 84
       },
       __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: 2.23,
-      speed: .75,
-      style: {
-        zIndex: '1',
-        marginTop: '3em'
-      },
-      onClick: () => this.parallax.scrollTo(0),
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-right",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 89
       },
       __self: this
-    }, __jsx("img", {
-      width: "200",
-      src: '../static/blob-shape (3).svg',
-      className: "jsx-1635709391",
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 2.53,
+      speed: 0.5,
+      style: {
+        marginTop: '7em'
+      },
+      onClick: () => this.parallax.scrollTo(0),
       __source: {
         fileName: _jsxFileName,
         lineNumber: 94
       },
       __self: this
-    })), __jsx(ParallaxLayer, {
-      offset: 2.58,
+    }, __jsx("div", {
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: '../static/vaseimg_1.jpg',
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100
+      },
+      __self: this
+    }))), __jsx(ParallaxLayer, {
+      offset: 2.2,
       speed: 1,
       style: {
-        zIndex: '2',
-        marginTop: '23em'
+        marginTop: '7em'
       },
       onClick: () => this.parallax.scrollTo(0),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 96
-      },
-      __self: this
-    }, __jsx("p", {
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101
-      },
-      __self: this
-    }, " This is the third product. ")), __jsx(ParallaxLayer, {
-      offset: 2,
-      speed: 0.5,
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 103
       },
       __self: this
-    }, __jsx("span", {
-      onClick: () => this.parallax.scrollTo(0),
-      className: "jsx-1635709391",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107
-      },
-      __self: this
     }, __jsx("img", {
-      width: "400em",
-      src: '../static/placeholder.png',
-      className: "jsx-1635709391",
+      height: "150px",
+      src: "../static/vaseimg_2.jpeg",
+      className: "jsx-3444269292",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 108
       },
       __self: this
-    })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "1635709391",
+    })), __jsx(ParallaxLayer, {
+      offset: 2.2,
+      speed: 1,
+      style: {
+        marginTop: '18em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
       __self: this
-    }, "@font-face{font-family:'Misto';src:url('../static/fonts/Misto.woff');}h2.jsx-1635709391{font-family:'Misto';font-size:150%;color:#585858;padding-top:9em;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9wYXJhbGxheC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErR2UsQUFJNkIsQUFLSCxvQkFKcUIsQUFLMUIsZUFDRCxjQUNFLFNBTmpCLE9BTzBCLGlGQUUxQiIsImZpbGUiOiIvVXNlcnMvam1rbGVmZWtlci9zMjAvd2hpc3AvY29tcHMvcGFyYWxsYXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCB7IFBhcmFsbGF4LCBQYXJhbGxheExheWVyIH0gPSByZXF1aXJlKCdyZWFjdC1zcHJpbmcvYWRkb25zLmNqcycpO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9MaW5rJ1xuaW1wb3J0IGR5bmFtaWMgZnJvbSAnbmV4dC9keW5hbWljJztcbmltcG9ydCBHcmF0ZXIgZnJvbSAnLi4vY29tcHMvZ3JhdGVyJ1xuXG5leHBvcnQgY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG4gIFx0dGhpcy5zdGF0ZSA9IHtcbiAgIFx0XHR4OiAxMDAsXG4gIFx0XHR5OiAxMDBcbiAgICB9XG5cdH1cblxuXHRyZW5kZXIgKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8ZGl2PlxuXHRcdFx0PFBhcmFsbGF4IHBhZ2VzPXs0fSBzY3JvbGxpbmc9e3RydWV9IGhvcml6b250YWwgcmVmPXtyZWYgPT4gKHRoaXMucGFyYWxsYXggPSByZWYpfT5cblx0XHRcdFx0ey8qIFBBR0UgMSAqL31cblx0XHRcdFx0PGRpdj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0ICAgIG9mZnNldCA9IHsuMn1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzdlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMSl9PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIzMjVweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0aW1nXzEuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0ICAgIG9mZnNldCA9IHsuNjJ9XG5cdFx0XHRcdFx0c3BlZWQ9ezF9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICc3ZW0nfX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfT5cblx0XHRcdFx0XHQ8aW1nIGhlaWdodCA9IFwiMTUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGltZ18yLmpwZWdcIiAvPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdCAgICBvZmZzZXQgPSB7LjYyfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMThlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMSl9PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIxNTBweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0aW1nXzMuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cbiAgICAgICAgXHRcdDxQYXJhbGxheExheWVyXG4gICAgICAgIFx0XHRcdG9mZnNldCA9IHsuMTV9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfT5cblx0XHRcdFx0XHQ8aDI+IEdpbmdlciBHcmF0ZXIgPC9oMj4gXG4gICAgICAgIFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG4gICAgICAgIFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7LjJ9XG5cdFx0XHRcdFx0c3BlZWQ9ey43NX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnM2VtJ319PlxuXHRcdFx0XHRcdDxHcmF0ZXIgLz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuICAgICAgICBcdFx0PC9kaXY+XG5cblx0XHRcdFx0ey8qIFBBR0UgMiAqL31cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0XHRvZmZzZXQ9ezF9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicgfX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDIpfT5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInA1XCI+XG4gIFx0XHRcdFx0ICA8aW1nIHdpZHRoPVwiNDAwZW1cIiBzcmM9eycuLi9zdGF0aWMvcGxhY2Vob2xkZXIucG5nJ30vPlxuICAgICAgICAgIDwvZGl2PlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsxLjU4fVxuXHRcdFx0XHRcdHNwZWVkPXsuNzV9XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygyKX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzNlbSd9fT5cblx0XHRcdFx0ICAgIDxpbWcgd2lkdGg9XCIyMDBcIiBzcmM9eycuLi9zdGF0aWMvYmxvYi1zaGFwZSAoNCkuc3ZnJ30vPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsxLjIzfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMjNlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMil9PlxuXHRcdFx0XHRcdCAgPHA+IFRoaXMgaXMgdGhlIHNlY29uZCBwcm9kdWN0LiA8L3A+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0ey8qIFBBR0UgMyAqL31cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0XHRvZmZzZXQ9ezJ9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRzdHlsZT17e2Rpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyB9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMCl9PlxuXHRcdFx0XHRcdFx0PGltZyB3aWR0aD1cIjQwMGVtXCIgc3JjPXsnLi4vc3RhdGljL3BsYWNlaG9sZGVyLnBuZyd9Lz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mi4yM31cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7ekluZGV4OiAnMScsIG1hcmdpblRvcDogJzNlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMCl9PlxuXHRcdFx0XHQ8aW1nIHdpZHRoPVwiMjAwXCIgc3JjPXsnLi4vc3RhdGljL2Jsb2Itc2hhcGUgKDMpLnN2Zyd9Lz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mi41OH1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e3pJbmRleDogJzInLCBtYXJnaW5Ub3A6ICcyM2VtJ319XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygwKX0+XG5cdFx0XHRcdFx0PHA+IFRoaXMgaXMgdGhlIHRoaXJkIHByb2R1Y3QuIDwvcD5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuICAgICAgICA8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mn1cblx0XHRcdFx0XHRzcGVlZD17MC41fVxuXHRcdFx0XHRcdHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyB9fT5cblx0XHRcdFx0XHQ8c3BhbiBvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDApfT5cblx0XHRcdFx0XHRcdDxpbWcgd2lkdGg9XCI0MDBlbVwiIHNyYz17Jy4uL3N0YXRpYy9wbGFjZWhvbGRlci5wbmcnfS8+XG5cdFx0XHRcdFx0PC9zcGFuPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHQ8L1BhcmFsbGF4PlxuXHRcdFx0PHN0eWxlIGpzeD57YFxuXG5cdFx0XHRcdEBmb250LWZhY2Uge1xuXHRcdFx0XHQgICAgZm9udC1mYW1pbHk6ICdNaXN0byc7XG5cdFx0XHRcdCAgICBzcmM6IHVybCgnLi4vc3RhdGljL2ZvbnRzL01pc3RvLndvZmYnKTtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdGgyIHtcblx0XHRcdFx0XHRmb250LWZhbWlseTogJ01pc3RvJztcblx0XHRcdFx0XHRmb250LXNpemU6IDE1MCU7XG5cdFx0XHRcdFx0Y29sb3I6ICM1ODU4NTg7XG5cdFx0XHRcdFx0cGFkZGluZy10b3A6IDllbTtcblx0XHRcdFx0XHR3cml0aW5nLW1vZGU6IHZlcnRpY2FsLXJsO1xuXG5cdFx0XHRcdH1cblxuXHRcdFx0XHRgfSA8L3N0eWxlPiBcblx0XHRcdDwvZGl2PlxuXG5cdFx0XHQpXG59XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/parallax.js */"));
+    }, __jsx("img", {
+      height: "150px",
+      src: "../static/vaseimg_3.jpeg",
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 2.42,
+      speed: 1,
+      style: {
+        marginTop: '6em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, __jsx(_comps_vase__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 121
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 2.03,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(1),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 124
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-left",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129
+      },
+      __self: this
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 2.92,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(3),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 131
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136
+      },
+      __self: this
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 3.1,
+      speed: 1,
+      style: {
+        marginTop: '7em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 141
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: "../static/gratimg_1.jpeg",
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 3.5,
+      speed: 1,
+      style: {
+        marginTop: '7em'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 147
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: "../static/gratimg_2.jpg",
+      className: "jsx-3444269292",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 3.1,
+      speed: .75,
+      style: {
+        marginTop: '3em',
+        height: "100px",
+        width: "500px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    }, __jsx(_comps_grater__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 157
+      },
+      __self: this
+    })), __jsx(ParallaxLayer, {
+      offset: 3.03,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(2),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-left",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 165
+      },
+      __self: this
+    }, " ")), __jsx(ParallaxLayer, {
+      offset: 3.92,
+      speed: .75,
+      onClick: () => this.parallax.scrollTo(0),
+      style: {
+        marginTop: '3em',
+        height: "60px",
+        width: "60px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 167
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-3444269292" + " " + "arrow-right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 172
+      },
+      __self: this
+    }, " "))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "3444269292",
+      __self: this
+    }, "@font-face{font-family:'Misto';src:url('../static/fonts/Misto.woff');}@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Source+Code+Pro');.wrapper.jsx-3444269292{padding-top:3em;}.welcome.jsx-3444269292{font-family:'Misto';font-size:200%;}.headphones.jsx-3444269292{font-family:'Source Code Pro';color:gray;font-size:115%;}.arrow-left.jsx-3444269292{margin-top:12em;border-bottom:1px solid #000;border-right:1px solid #000;width:35px;height:35px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg);}.arrow-left.jsx-3444269292:hover{border-bottom:2px solid #000;border-right:2px solid #000;}.arrow-right.jsx-3444269292{margin-top:12em;border-bottom:1px solid #000;border-right:1px solid #000;width:35px;height:35px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.arrow-right.jsx-3444269292:hover{border-bottom:2px solid #000;border-right:2px solid #000;}h2.jsx-3444269292{font-family:'Misto';font-size:150%;color:#585858;padding-top:9em;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy9wYXJhbGxheC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4S2UsQUFJNkIsQUFHNEQsQUFHbkUsQUFLSSxBQUtVLEFBTWQsQUFVYSxBQU1iLEFBVWEsQUFLVCxnQkE3Q3JCLEFBZThCLEFBZ0JBLElBdENZLEFBVzFCLEFBMENBLFNBckJhLEFBZ0JBLENBaENqQixLQUpaLEFBMENlLE1BcENoQixJQUs4QixBQWdCQSxJQWdCWixPQXJDakIsQ0FlQSxBQWdCQSxDQWhEQSxPQXVEMEIsUUFoQ2QsQUFnQkEsV0FmQyxBQWdCQSxZQWZhLEFBZ0JBLGtEQWUxQixxQ0E3QkEsQUFnQkEiLCJmaWxlIjoiL1VzZXJzL2pta2xlZmVrZXIvczIwL3doaXNwL2NvbXBzL3BhcmFsbGF4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgeyBQYXJhbGxheCwgUGFyYWxsYXhMYXllciB9ID0gcmVxdWlyZSgncmVhY3Qtc3ByaW5nL2FkZG9ucy5janMnKTtcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvTGluaydcbmltcG9ydCBkeW5hbWljIGZyb20gJ25leHQvZHluYW1pYyc7XG5pbXBvcnQgR3JhdGVyIGZyb20gJy4uL2NvbXBzL2dyYXRlcidcbmltcG9ydCBWYXNlIGZyb20gJy4uL2NvbXBzL3Zhc2UnXG5pbXBvcnQgU2VxIGZyb20gJy4uL2NvbXBzL3NlcSdcblxuZXhwb3J0IGNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cdGNvbnN0cnVjdG9yKHByb3BzKSB7XG5cdFx0c3VwZXIocHJvcHMpO1xuICBcdHRoaXMuc3RhdGUgPSB7XG4gICBcdFx0eDogMTAwLFxuICBcdFx0eTogMTAwXG4gICAgfVxuXHR9XG5cblx0cmVuZGVyICgpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJ3cmFwcGVyXCI+XG5cdFx0XHQ8UGFyYWxsYXggcGFnZXM9ezR9IHNjcm9sbGluZz17dHJ1ZX0gaG9yaXpvbnRhbCByZWY9e3JlZiA9PiAodGhpcy5wYXJhbGxheCA9IHJlZil9PlxuXHRcdFx0XHR7LyogUEFHRSAwICovfVxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7MC4zNX1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMTBlbSd9fT5cblx0XHRcdFx0XHQ8cCBjbGFzc05hbWU9XCJ3ZWxjb21lXCI+IFNwcmluZyBDb2xsZWN0aW9uIDwvcD5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7MC4zNX1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMTVlbSd9fT5cblx0XHRcdFx0XHQ8cCBjbGFzc05hbWU9XCJoZWFkcGhvbmVzXCI+IDI5LDk5Oi0gcGVyIG1vbnRoIDwvcD5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7MC4zNX1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMTdlbScsIGhlaWdodDogXCI2MHB4XCIsIHdpZHRoOiBcIjYwcHhcIn19PlxuXHRcdFx0XHRcdDxwIGNsYXNzTmFtZT1cImhlYWRwaG9uZXNcIj4gcGxlYXNlIHdlYXIgaGVhZHBob25lcyA8L3A+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcbiAgICAgICAgXHRcdFx0b2Zmc2V0ID0gezAuOTJ9XG5cdFx0XHRcdFx0c3BlZWQ9ey43NX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDEpfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnM2VtJywgaGVpZ2h0OiBcIjYwcHhcIiwgd2lkdGg6IFwiNjBweFwifX0+XG5cdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJhcnJvdy1yaWdodFwiPiA8L2Rpdj5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXG5cdFx0XHRcdHsvKiBQQUdFIDEgKi99XG5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0XHRvZmZzZXQ9ezEuMjV9XG5cdFx0XHRcdFx0c3BlZWQ9ezAuNX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzdlbSd9fT5cbiAgXHRcdFx0XHQgIDxpbWcgaGVpZ2h0PVwiMzI1cHhcIiBzcmM9eycuLi9zdGF0aWMvcGxhbnRpbWdfMS5qcGVnJ30vPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdCAgICBvZmZzZXQgPSB7MS4xfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnMTFlbSd9fT5cblx0XHRcdFx0XHQ8aW1nIGhlaWdodCA9IFwiMTUwcHhcIiBzcmM9XCIuLi9zdGF0aWMvcGxhbnRpbWdfMi5qcGVnXCIgLz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHQgICAgb2Zmc2V0ID0gezEuMX1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzIyZW0nfX0+XG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjE1MHB4XCIgc3JjPVwiLi4vc3RhdGljL3BsYW50aW1nXzMuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsxLjd9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICc3ZW0nfX1cblx0XHRcdFx0XHRzcGVlZD17MX0+XG5cdFx0XHRcdFx0PFNlcSAvPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cblx0XHRcdFx0XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG4gICAgICAgIFx0XHRcdG9mZnNldCA9IHsxLjAzfVxuXHRcdFx0XHRcdHNwZWVkPXsuNzV9XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygwKX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzNlbScsIGhlaWdodDogXCI2MHB4XCIsIHdpZHRoOiBcIjYwcHhcIn19PlxuXHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiYXJyb3ctbGVmdFwiPiA8L2Rpdj5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7MS45Mn1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMil9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICczZW0nLCBoZWlnaHQ6IFwiNjBweFwiLCB3aWR0aDogXCI2MHB4XCJ9fT5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImFycm93LXJpZ2h0XCI+IDwvZGl2PlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cblx0XHRcdFx0ey8qIFBBR0UgMiAqL31cblxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHRcdG9mZnNldD17Mi41M31cblx0XHRcdFx0XHRzcGVlZD17MC41fVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnN2VtJ319XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygwKX0+XG5cdFx0XHRcdFx0PGRpdj5cbiAgXHRcdFx0XHQgIDxpbWcgaGVpZ2h0PVwiMzI1cHhcIiBzcmM9eycuLi9zdGF0aWMvdmFzZWltZ18xLmpwZyd9Lz5cbiAgICAgICAgICBcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHQgICAgb2Zmc2V0ID0gezIuMn1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzdlbSd9fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMCl9PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIxNTBweFwiIHNyYz1cIi4uL3N0YXRpYy92YXNlaW1nXzIuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcblx0XHRcdFx0ICAgIG9mZnNldCA9IHsyLjJ9XG5cdFx0XHRcdFx0c3BlZWQ9ezF9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICcxOGVtJ319PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIxNTBweFwiIHNyYz1cIi4uL3N0YXRpYy92YXNlaW1nXzMuanBlZ1wiIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdFx0b2Zmc2V0PXsyLjQyfVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnNmVtJ319PlxuXHRcdFx0XHRcdCAgPFZhc2UgLz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQgXG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG4gICAgICAgIFx0XHRcdG9mZnNldCA9IHsyLjAzfVxuXHRcdFx0XHRcdHNwZWVkPXsuNzV9XG5cdFx0XHRcdFx0b25DbGljaz17KCkgPT4gdGhpcy5wYXJhbGxheC5zY3JvbGxUbygxKX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzNlbScsIGhlaWdodDogXCI2MHB4XCIsIHdpZHRoOiBcIjYwcHhcIn19PlxuXHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiYXJyb3ctbGVmdFwiPiA8L2Rpdj5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7Mi45Mn1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMyl9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICczZW0nLCBoZWlnaHQ6IFwiNjBweFwiLCB3aWR0aDogXCI2MHB4XCJ9fT5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImFycm93LXJpZ2h0XCI+IDwvZGl2PlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cblx0XHRcdFx0ey8qIFBBR0UgMyAqL31cblxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuXHRcdFx0XHQgICAgb2Zmc2V0ID0gezMuMX1cblx0XHRcdFx0XHRzcGVlZD17MX1cblx0XHRcdFx0XHRzdHlsZT17e21hcmdpblRvcDogJzdlbSd9fT5cblx0XHRcdFx0XHQ8aW1nIGhlaWdodCA9IFwiMzI1cHhcIiBzcmM9XCIuLi9zdGF0aWMvZ3JhdGltZ18xLmpwZWdcIiAvPlxuXHRcdFx0XHQ8L1BhcmFsbGF4TGF5ZXI+XG5cdFx0XHRcdDxQYXJhbGxheExheWVyXG5cdFx0XHRcdCAgICBvZmZzZXQgPSB7My41fVxuXHRcdFx0XHRcdHNwZWVkPXsxfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnN2VtJ319PlxuXHRcdFx0XHRcdDxpbWcgaGVpZ2h0ID0gXCIzMjVweFwiIHNyYz1cIi4uL3N0YXRpYy9ncmF0aW1nXzIuanBnXCIgLz5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuICAgICAgICBcdFx0PFBhcmFsbGF4TGF5ZXJcbiAgICAgICAgXHRcdFx0b2Zmc2V0ID0gezMuMX1cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnM2VtJywgaGVpZ2h0OiBcIjEwMHB4XCIsIHdpZHRoOiBcIjUwMHB4XCJ9fT5cblx0XHRcdFx0XHQ8R3JhdGVyIC8+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblxuXHRcdFx0XHQ8UGFyYWxsYXhMYXllclxuICAgICAgICBcdFx0XHRvZmZzZXQgPSB7My4wM31cblx0XHRcdFx0XHRzcGVlZD17Ljc1fVxuXHRcdFx0XHRcdG9uQ2xpY2s9eygpID0+IHRoaXMucGFyYWxsYXguc2Nyb2xsVG8oMil9XG5cdFx0XHRcdFx0c3R5bGU9e3ttYXJnaW5Ub3A6ICczZW0nLCBoZWlnaHQ6IFwiNjBweFwiLCB3aWR0aDogXCI2MHB4XCJ9fT5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImFycm93LWxlZnRcIj4gPC9kaXY+XG5cdFx0XHRcdDwvUGFyYWxsYXhMYXllcj5cblx0XHRcdFx0PFBhcmFsbGF4TGF5ZXJcbiAgICAgICAgXHRcdFx0b2Zmc2V0ID0gezMuOTJ9XG5cdFx0XHRcdFx0c3BlZWQ9ey43NX1cblx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB0aGlzLnBhcmFsbGF4LnNjcm9sbFRvKDApfVxuXHRcdFx0XHRcdHN0eWxlPXt7bWFyZ2luVG9wOiAnM2VtJywgaGVpZ2h0OiBcIjYwcHhcIiwgd2lkdGg6IFwiNjBweFwifX0+XG5cdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJhcnJvdy1yaWdodFwiPiA8L2Rpdj5cblx0XHRcdFx0PC9QYXJhbGxheExheWVyPlxuXHRcdFx0PC9QYXJhbGxheD5cblx0XHRcdDxzdHlsZSBqc3g+e2BcblxuXHRcdFx0XHRAZm9udC1mYWNlIHtcblx0XHRcdFx0ICAgIGZvbnQtZmFtaWx5OiAnTWlzdG8nO1xuXHRcdFx0XHQgICAgc3JjOiB1cmwoJy4uL3N0YXRpYy9mb250cy9NaXN0by53b2ZmJyk7XG5cdFx0XHRcdH1cblx0XHRcdFx0QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1ETStTZXJpZitUZXh0fFNvdXJjZStDb2RlK1BybycpO1xuXG5cdFx0XHRcdC53cmFwcGVyIHtcblx0XHRcdFx0XHRwYWRkaW5nLXRvcDogM2VtO1xuXG5cdFx0XHRcdH1cblxuXHRcdFx0XHQud2VsY29tZSB7XG5cdFx0XHRcdFx0Zm9udC1mYW1pbHk6ICdNaXN0byc7XG5cdFx0XHRcdFx0Zm9udC1zaXplOiAyMDAlO1xuXHRcdFx0XHR9XG5cblx0XHRcdFx0LmhlYWRwaG9uZXMge1xuXHRcdFx0XHRcdGZvbnQtZmFtaWx5OiAnU291cmNlIENvZGUgUHJvJztcblx0XHRcdFx0XHRjb2xvcjogZ3JheTtcblx0XHRcdFx0XHRmb250LXNpemU6IDExNSVcblx0XHRcdFx0fVxuXG5cdFx0XHRcdC5hcnJvdy1sZWZ0IHtcblx0XHRcdFx0XHRtYXJnaW4tdG9wOiAxMmVtO1xuXHRcdFx0XHRcdGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjMDAwO1xuXHRcdFx0XHRcdGJvcmRlci1yaWdodDogMXB4IHNvbGlkICMwMDA7XG5cdFx0XHRcdFx0d2lkdGg6IDM1cHg7XG5cdFx0XHRcdFx0aGVpZ2h0OiAzNXB4O1xuXHRcdFx0XHRcdHRyYW5zZm9ybTogcm90YXRlKDEzNWRlZyk7XG5cblx0XHRcdFx0fVxuXG5cdFx0XHRcdC5hcnJvdy1sZWZ0OmhvdmVyIHtcblx0XHRcdFx0XHRib3JkZXItYm90dG9tOiAycHggc29saWQgIzAwMDtcblx0XHRcdFx0XHRib3JkZXItcmlnaHQ6IDJweCBzb2xpZCAjMDAwO1xuXHRcdFx0XHR9XG5cblxuXHRcdFx0XHQuYXJyb3ctcmlnaHQge1xuXHRcdFx0XHRcdG1hcmdpbi10b3A6IDEyZW07XG5cdFx0XHRcdFx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICMwMDA7XG5cdFx0XHRcdFx0Ym9yZGVyLXJpZ2h0OiAxcHggc29saWQgIzAwMDtcblx0XHRcdFx0XHR3aWR0aDogMzVweDtcblx0XHRcdFx0XHRoZWlnaHQ6IDM1cHg7XG5cdFx0XHRcdFx0dHJhbnNmb3JtOiByb3RhdGUoLTQ1ZGVnKTtcblxuXHRcdFx0XHR9XG5cblx0XHRcdFx0LmFycm93LXJpZ2h0OmhvdmVyIHtcblx0XHRcdFx0XHRib3JkZXItYm90dG9tOiAycHggc29saWQgIzAwMDtcblx0XHRcdFx0XHRib3JkZXItcmlnaHQ6IDJweCBzb2xpZCAjMDAwO1xuXHRcdFx0XHR9XG5cblx0XHRcdFx0aDIge1xuXHRcdFx0XHRcdGZvbnQtZmFtaWx5OiAnTWlzdG8nO1xuXHRcdFx0XHRcdGZvbnQtc2l6ZTogMTUwJTtcblx0XHRcdFx0XHRjb2xvcjogIzU4NTg1ODtcblx0XHRcdFx0XHRwYWRkaW5nLXRvcDogOWVtO1xuXHRcdFx0XHRcdHdyaXRpbmctbW9kZTogdmVydGljYWwtcmw7XG5cdFx0XHRcdH1cblxuXHRcdFx0XHRgfSA8L3N0eWxlPiBcblx0XHRcdDwvZGl2PlxuXG5cdFx0XHQpXG59XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ== */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/parallax.js */"));
   }
 
 }
 /* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./comps/seq.js":
+/*!**********************!*\
+  !*** ./comps/seq.js ***!
+  \**********************/
+/*! exports provided: Seq, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Seq", function() { return Seq; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/seq.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+class Seq extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.seqRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+    this.state = {
+      x: 100,
+      y: 100
+    };
+  }
+
+  componentDidMount() {
+    const p5 = __webpack_require__(/*! p5 */ "p5");
+
+    __webpack_require__(/*! p5/lib/addons/p5.sound */ "p5/lib/addons/p5.sound");
+
+    this.seqSketch = new p5(p => {
+      let cnv, sound;
+      let canWidth = 200;
+      let canHeight = 400;
+      let x = canWidth / 2;
+      let y = canHeight - 100;
+      let center = canWidth / 2;
+
+      p.setup = () => {
+        sound = p.loadSound('../static/plantsound3.mp3');
+        cnv = p.createCanvas(canWidth, canHeight).parent(this.seqRef.current);
+        cnv.mouseOver(playSound);
+        cnv.mouseMoved(mouseMoved);
+        cnv.mouseOut(mouseOut);
+        p.masterVolume(0.01);
+      };
+
+      function playSound() {
+        sound.play();
+      }
+
+      function mouseMoved() {
+        x = p.mouseX;
+        y = p.mouseY;
+      }
+
+      function mouseOut() {
+        x = canWidth / 2;
+        y = canHeight - 100;
+      }
+
+      p.draw = () => {
+        p.background(255);
+        p.stroke(91, 186, 93);
+        p.noFill();
+        p.bezier(center, 60, center + 10, 90, center + 10, 90, x, y);
+        p.bezier(center, 90, center + 10, 100, center + 20, 110, x, y);
+      };
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "p5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }, __jsx("div", {
+      ref: this.seqRef,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (Seq);
+
+/***/ }),
+
+/***/ "./comps/vase.js":
+/*!***********************!*\
+  !*** ./comps/vase.js ***!
+  \***********************/
+/*! exports provided: Grater, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grater", function() { return Grater; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/Link */ "next/Link");
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/jmklefeker/s20/whisp/comps/vase.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Grater extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "playSound", () => {
+      console.log('alksdj');
+      var thissound = document.getElementById('vaseSound');
+      thissound.volume = 0.07;
+      thissound.play();
+    });
+
+    _defineProperty(this, "stopSound", () => {
+      var thissound = document.getElementById('vaseSound');
+      thissound.pause();
+      thissound.currentTime = 0;
+    });
+
+    this.state = {};
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "jsx-2346535599" + " " + "flex",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-2346535599" + " " + "grid",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("div", {
+      onMouseEnter: this.playSound,
+      onMouseLeave: this.stopSound,
+      className: "jsx-2346535599" + " " + "g",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx("img", {
+      height: "325px",
+      src: "../static/vase.png",
+      className: "jsx-2346535599",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }))), __jsx("audio", {
+      id: "vaseSound",
+      src: "../static/vase3.mp3",
+      className: "jsx-2346535599",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "2346535599",
+      __self: this
+    }, "#title.jsx-2346535599{font-family:'Misto';font-size:300%;}.grid.jsx-2346535599{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.g.jsx-2346535599{width:100px;height:375px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.g.jsx-2346535599:hover{-webkit-transform:scale(1.08);-ms-transform:scale(1.08);transform:scale(1.08);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy92YXNlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1DZSxBQUkwQixBQUtQLEFBS0QsQUFPVSxZQU5ULFFBVkUsS0FXRixVQVZkLHVDQUlnQixJQVloQixxQkFMd0IsZ0NBTnhCLG1FQU9BIiwiZmlsZSI6Ii9Vc2Vycy9qbWtsZWZla2VyL3MyMC93aGlzcC9jb21wcy92YXNlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyByZW5kZXIgfSBmcm9tIFwicmVhY3QtZG9tXCI7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L0xpbmsnXG5cbmV4cG9ydCBjbGFzcyBHcmF0ZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXHRjb25zdHJ1Y3Rvcihwcm9wcykge1xuXHRcdHN1cGVyKHByb3BzKTtcbiAgXHR0aGlzLnN0YXRlID0ge31cbiAgfVxuICBcdHBsYXlTb3VuZCA9ICgpID0+IHtcbiAgXHRjb25zb2xlLmxvZygnYWxrc2RqJylcbiAgICB2YXIgdGhpc3NvdW5kPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd2YXNlU291bmQnKTtcbiAgICB0aGlzc291bmQudm9sdW1lID0gMC4wNztcbiAgICB0aGlzc291bmQucGxheSgpO1xuXHR9XG5cblx0c3RvcFNvdW5kID0gKCkgPT4ge1xuICAgIHZhciB0aGlzc291bmQ9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Zhc2VTb3VuZCcpO1xuICAgIHRoaXNzb3VuZC5wYXVzZSgpO1xuICAgIHRoaXNzb3VuZC5jdXJyZW50VGltZSA9IDA7XG5cdH1cblxuXG5cdHJlbmRlciAoKSB7XG5cdFx0cmV0dXJuIChcblx0XHQ8ZGl2IGNsYXNzTmFtZSA9IFwiZmxleFwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWUgPSBcImdyaWRcIiA+XG5cdFx0XHRcdDxkaXYgb25Nb3VzZUVudGVyPXt0aGlzLnBsYXlTb3VuZH0gb25Nb3VzZUxlYXZlPXt0aGlzLnN0b3BTb3VuZH0gY2xhc3NOYW1lID0gXCJnXCI+XG5cdFx0XHRcdFx0PGltZyBoZWlnaHQgPSBcIjMyNXB4XCIgc3JjPVwiLi4vc3RhdGljL3Zhc2UucG5nXCIgLz5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblxuXHRcdFx0PGF1ZGlvIGlkPSd2YXNlU291bmQnIHNyYz0nLi4vc3RhdGljL3Zhc2UzLm1wMycvPlxuXG5cdFx0XHQ8c3R5bGUganN4PntgXG5cblx0XHRcdFx0I3RpdGxlIHtcblx0XHRcdFx0XHRmb250LWZhbWlseTogJ01pc3RvJztcblx0XHRcdFx0XHRmb250LXNpemU6IDMwMCU7XG5cdFx0XHRcdH1cblx0XHRcdFx0XG5cdFx0XHRcdC5ncmlkIHtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRcdGZsZXgtd3JhcDogd3JhcDtcblx0XHRcdFx0fVxuXG5cdFx0XHRcdC5nIHtcblx0XHRcdFx0XHR3aWR0aDogMTAwcHg7XG5cdFx0XHRcdFx0aGVpZ2h0OiAzNzVweDtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRcdFx0XHR9XG5cblx0XHRcdFx0Lmc6aG92ZXIge1xuXHRcdFx0XHRcdHRyYW5zZm9ybTogc2NhbGUoMS4wOCk7XG5cdFx0XHRcdH1cblxuXHRcdFx0XHRgfSA8L3N0eWxlPiBcblx0XHQ8L2Rpdj5cblxuXHRcdClcblx0fVxufVxuXG5leHBvcnQgZGVmYXVsdCBHcmF0ZXI7XG4iXX0= */\n/*@ sourceURL=/Users/jmklefeker/s20/whisp/comps/vase.js */"));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (Grater);
 
 /***/ }),
 
@@ -2379,10 +2708,16 @@ const Index = () => __jsx("div", {
     lineNumber: 5
   },
   __self: undefined
-}, __jsx(_comps_parallax__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_comps_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
+  },
+  __self: undefined
+}), __jsx(_comps_parallax__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
   },
   __self: undefined
 }));
@@ -2391,7 +2726,7 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2477,6 +2812,28 @@ module.exports = require("next/Link");
 /***/ (function(module, exports) {
 
 module.exports = require("next/dynamic");
+
+/***/ }),
+
+/***/ "p5":
+/*!*********************!*\
+  !*** external "p5" ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("p5");
+
+/***/ }),
+
+/***/ "p5/lib/addons/p5.sound":
+/*!*****************************************!*\
+  !*** external "p5/lib/addons/p5.sound" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("p5/lib/addons/p5.sound");
 
 /***/ }),
 

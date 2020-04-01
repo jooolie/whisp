@@ -2,43 +2,63 @@ import Link from 'next/link'
 
 const Nav = () => (
 <div className="nav">
-    <p> Whisp </p>
-    <ul className="links">
-      <li> <Link href='/'> shop </Link> </li>
-      <li> <Link href='/about'> about </Link> </li>
-    </ul>
+    <p className="title"> Whisp </p>
+    <p className="desc"> Spring Collection: 29,99:-/month </p>
+   
     <style jsx> {`
 			@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Source+Code+Pro');
+
+        @font-face {
+            font-family: 'Misto';
+            src: url('../static/fonts/Misto.woff');
+        }
+
       .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-top: -0.4em;
+      position: fixed;
+
+
       }
 
-      p {
-      margin-left: .5em;
-      font-family: 'DM Serif Text';
+      .title {
+      margin-left: 1em;
+      font-family: 'Misto';
+      font-size: 170%;
+      color: black;
+      }
+
+      .desc {
+      font-family: 'Misto';
+      font-size: 100%;
+      margin-left: 2em;
+      color: gray;
       }
 
       .links {
       font-family: 'Source Code Pro';
       list-style: none;
       display: flex;
-      margin-right: .4em;
+      margin-left: 55em;
+      margin-right: 1em;
       text-decoration: none;
 			}
+      
+
 			li {
-      padding-left: .3em;
-      padding-right: .3em;
-      color: blue;
+      padding-left: .4em;
+      padding-right: .4em;
+      color: gray;
       }
 
       li: active {
-        color: blue;
+        color: black;
       }
 
       li: visited {
-        color: blue;
+        color: gray;
       }
       
     `} </style>

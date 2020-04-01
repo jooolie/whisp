@@ -3,6 +3,7 @@ import App from '../comps/parallax'
 
 const Index = () => (
   <div>
+  			<Nav />
 			<App />
   </div>
 )
